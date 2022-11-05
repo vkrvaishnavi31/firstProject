@@ -19,6 +19,8 @@ public class EmployeeController {
 	public String addDetail(@RequestBody Employee e) {
 		return empser.addDetail(e);	
 	}
+	
+	
 	@PostMapping(value="/listadd")
 	public String addListDetail(@RequestBody List<Employee> e) {
 		return empser.addListDetail(e);

@@ -7,6 +7,9 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class EmployeeDao {
+	int d;
+	String name;
+	
 	@Autowired
 	EmployeeRepository empRepo;
 	public String addDetail(Employee e) {
